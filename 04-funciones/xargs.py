@@ -24,3 +24,37 @@
 # ...
 # Usar for para recorrer los nombres
 # (opcional) intentar con range(len()) antes de mejorar
+
+# def inscrit (dia, *nombres):
+#     print(f" para el dia {dia} \n" + "tenemos los siguientes inscritos:")
+#     contador = 0
+#     for nombre in nombres :
+#             contador+=1  
+#             print(contador,nombre)
+
+
+
+# inscrit(3,"juan", "maria", "Paco", "Meli")  
+#*****************************************************************
+# [TAREA]
+# Crea una función que:
+
+# reciba datos con **kwargs
+# imprima:
+# nombre del producto
+# precio
+# stock
+# y además:
+# si no viene alguno de esos datos → imprimir "dato no disponible"
+
+#dato
+# Reglas:
+# usar kwargs como diccionario
+# acceder por clave ([...])
+# manejar el caso cuando no exista la clave
+
+#*****************************************************************
+
+
+def get_datos (**datos):
+    print(nombre=["name"],nombre=["name"],nombre=["name"],info)
