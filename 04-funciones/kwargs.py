@@ -71,6 +71,7 @@
 
 
 def get_datos(item, **datos):
+    
     for clave, valor in datos.items():
         print(f"{clave}: {valor}")
 
@@ -79,4 +80,4 @@ def get_datos(item, **datos):
 
 
 
-get_datos("altura", name="celular chino", precio=1000, stock=25)
+get_datos(altura="altura", name="celular chino", precio=1000, stock=25)
