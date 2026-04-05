@@ -48,14 +48,18 @@ while pregunta != "salir":
     if pregunta == "sum":
         resultado = num1 + num2 
         num1 = resultado
+        num2 = int(input("dame otro numero entero: "))
     elif pregunta == "rest":  
         resultado = num1 - num2 
         num1 = resultado
+        num2 = int(input("dame otro numero entero: "))
     elif pregunta == "multi":
         resultado = num1 * num2
+        num2 = int(input("dame otro numero entero: "))
         num1 = resultado
     elif pregunta == "div":
         resultado = num1 / num2
+        num2 = int(input("dame otro numero entero: "))
         num1 = resultado
     elif pregunta == "salir":
         break
